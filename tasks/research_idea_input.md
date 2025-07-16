@@ -1,0 +1,2 @@
+RESEARCH_IDEA: Predicting Future Research Directions Through AI Paper Mashing
+Core Hypothesis: Large Language Models using paper mashing techniques can anticipate future research directions by generating ideas that match papers published after the model's training cutoff.

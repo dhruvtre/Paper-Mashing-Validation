@@ -1,0 +1,46 @@
+1.  **Project Scaffolding and Configuration Setup**: Establish the complete project scaffold, including the Modal app orchestrator (`run.py`), a central `config.json`, the directory structure (`/src`, `/outputs`), and a container image with all necessary Python libraries.
+2.  **Data Curation (Future & Predecessor Sets)**: Develop a script to programmatically build two distinct sets of papers: a "Future Set" of papers published *after* the configured cutoff date, and a "Predecessor Set" mapping each future paper to its cited references that were published *before* the cutoff, with fallbacks for API limitations.
+3.  **Core Logic Refactoring from Notebook**: Adapt the paper mashing and idea generation logic from the provided Jupyter notebook (`World_Model_Idea_Generation_Notebook_1.ipynb`) into a modular, reusable Python script, ensuring the exact prompts from the notebook are used.
+4.  **Baseline Idea Generation (Control)**: Execute the control condition of the experiment by generating a set of research ideas using the specific control prompt from the reference notebook and the configured language model.
+5.  **Experimental Idea Generation (Mashing with Random Pairing)**: Execute the experimental condition by loading the curated data, randomly pairing two "predecessor" papers for each "future" paper, and using the mashing prompt to generate ideas.
+6.  **Evaluation Component Setup (Embedding)**: Create a dedicated module to handle the loading of a sentence-transformer model and the generation of text embeddings.
+7.  **Similarity Score Evaluation**: Implement the first evaluation metric by calculating the cosine similarity between the generated ideas (from both control and experimental groups) and their corresponding "future" target papers.
+8.  **Perplexity Score Evaluation**: Implement the second evaluation metric by calculating the perplexity of the "future" target papers, conditioned on the exact generation prompts.
+9.  **Final Analysis and Reporting**: Consolidate all evaluation results, perform statistical comparison between the control and experimental groups, and generate a final summary report.
+
+<tasks>
+<task_1>
+
+</task_1>
+
+<task_2>
+
+</task_2>
+
+<task_3>
+
+</task_3>
+
+<task_4>
+
+</task_4>
+
+<task_5>
+
+</task_5>
+
+<task_6>
+
+</task_6>
+
+<task_7>
+
+</task_7>
+
+<task_8>
+
+</task_8>
+
+<task_9>
+
+</task_9>
