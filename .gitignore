@@ -1,0 +1,31 @@
+# Environment variables
+.env
+
+# Journals and logs
+llm-journal.md
+human-journal.md
+2025-07-22-hey-could-you-go-through-the-cod-we-have-in-src-an.txt
+
+# Python virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+src/__pycache__/
+
+# Unused source files
+src/openreview.py
+src/data_collection.py
+
+# Unused output files
+outputs/icml_future_papers_1.json
+outputs/recent_arxiv_papers_10.json
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
